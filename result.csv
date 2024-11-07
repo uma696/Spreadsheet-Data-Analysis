@@ -1,0 +1,52 @@
+******Result of SPREADSHEET ANALYSIS PROJECT******************
+Sales from each month :
+       sales
+month       
+jan     6226
+feb     1521
+mar     1842
+apr     2051
+may     1728
+jun     2138
+jul     7479
+aug     4434
+sep     3615
+oct     5472
+nov     7224
+dec     1812
+************************************
+Sales from each month as a list :
+[6226, 1521, 1842, 2051, 1728, 2138, 7479, 4434, 3615, 5472, 7224, 1812]
+************************************
+Total Sales : 45542
+************************************
+Minimum Sales Month :
+month     feb
+sales    1521
+Name: 1, dtype: object
+************************************
+Maximum Sales Month :
+month     jul
+sales    7479
+Name: 6, dtype: object
+************************************
+Sales Average: 3795.1666666666665
+************************************
+Average rounded to 2 decimal places: 3795.17
+************************************
+Monthly change as Percentage:
+       sales
+0        NaN
+1  -0.755702
+2   0.211045
+3   0.113464
+4  -0.157484
+5   0.237269
+6   2.498129
+7  -0.407140
+8  -0.184709
+9   0.513693
+10  0.320175
+11 -0.749169
+************************************
+******THANK YOU**********
