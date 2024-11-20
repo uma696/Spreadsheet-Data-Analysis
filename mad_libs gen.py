@@ -4,7 +4,7 @@ fruits = ["Apple","Apricot","Banana","Berry","cherry","currant","Grape","Guava",
 random_fruit = random.choice(fruits)
 vegetables = ["Artichoke","Celery","Chick Peas","Fennel","Lettuce","Onion","Peas","Squashes","Tomato"]
 random_vegetable = random.choice(vegetables)
-verb = input("enter a verb :")
+verb = str(input("enter a verb :"))
 Color_Adjective = ["blue","gray","green","lemon","mango"]
 random_color = random.choice(Color_Adjective)
 Shape_Adjective = ["big","small","gigantic","mammoth","tall"]
@@ -13,9 +13,10 @@ Positive_Adj = input("enter a positive adjective:")
 indefinite_pronoun = input("enter the indefinite pronoun: ")
 
 def madlib_gen(a,b,c,d,e,f,g) :
-    madlib_word=f"I love "+ Positive_Adj +" "+ random_fruit +" in " + "  " + random_color +" "+ \
-                " color "+" and " + " a "+ " "+ random_color +" "+" fruit "+ \
-                " for "+ random_shape + " "+verb+" "+indefinite_pronoun + "..."
+    print("********Welcome to Madlib generator********")
+    madlib_word=f"I love "+ Positive_Adj +" "+ random_fruit +" in "+ random_color + \
+                " color and a "+ random_vegetable +" of "+ random_shape + " size for "+verb+" "+indefinite_pronoun +\
+                " :) Thanks :)"
 
     print(madlib_word)
 
